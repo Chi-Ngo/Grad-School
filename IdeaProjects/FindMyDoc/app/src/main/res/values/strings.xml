@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">FindMyDoc</string>
+    <string name="action_settings">Settings</string>
+    <string name="greeting">Pick a specialty from the dropdown menu and type in the location. </string>
+    <string name="city">Enter the city:</string>
+    <string name="state">Enter the state abbreviation:</string>
+    <string name="zip">Enter the zip code:</string>
+    <string-array name="specialty">
+        <item></item>
+        <item>dermatology</item>
+        <item>dentist</item>
+        <item>primary care</item>
+        <item>gynecology</item>
+        <item>mental health</item>
+        <item>nutrition</item>
+        <item>pediatric</item>
+        <item>physical therapy</item>
+    </string-array>
+</resources>

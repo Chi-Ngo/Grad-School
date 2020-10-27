@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+
+    <TextView android:layout_width="match_parent"
+              android:layout_height="46dp"
+              android:id="@+id/heading"
+              android:text="FIND MY DOC"
+              android:textStyle="bold"
+              android:background="#cd3700"
+              android:textColor="#FFFFFF"
+              android:textSize="75px"
+              android:fontFamily="casual"
+    />
+    <TextView android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:id="@+id/doc_res"
+              android:fontFamily="sans-serif-light"
+              android:textSize="50px"
+              android:textColor="#000000"
+              android:visibility="gone"/>
+
+    <RadioGroup android:id="@+id/radiogroup"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:visibility="gone"/>
+
+    <TextView android:layout_width="match_parent"
+              android:layout_height="32dp"
+    />
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:singleLine="false"
+        android:fontFamily="sans-serif-light"
+        android:textColor="#000000"
+        android:textSize="50px"
+        android:id="@+id/prompt"
+        android:text="@string/greeting" />
+
+    <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/prompt2"
+            android:singleLine="false"
+            android:textStyle="italic|bold"
+            android:fontFamily="sans-serif-light"
+            android:textColor="#000000	"
+            android:textSize="40px"
+            android:text=" All fields are optional" />
+
+    <TextView android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+    />
+    <Spinner
+            android:id="@+id/spinner"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:drawable/btn_dropdown"/>
+    <TextView android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:id="@+id/blank_box3"
+              android:visibility="gone"
+    />
+    <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-light"
+            android:textColor="#000000	"
+            android:textSize="50px"
+            android:id="@+id/cityPrompt"
+            android:text="@string/city" />
+    <EditText
+            android:id="@+id/city"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:drawable/editbox_background"
+            android:singleLine="true"
+            android:textColor="#000000"/>
+    <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-light"
+            android:textColor="#000000	"
+            android:textSize="50px"
+            android:id="@+id/statePrompt"
+            android:text="@string/state" />
+    <EditText
+            android:id="@+id/state"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:drawable/editbox_background"
+            android:singleLine="true"
+            android:textColor="#000000"/>
+    <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-light"
+            android:textColor="#000000	"
+            android:textSize="50px"
+            android:id="@+id/zipPrompt"
+            android:text="@string/zip" />
+    <EditText
+            android:id="@+id/zip"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:drawable/editbox_background"
+            android:singleLine="true"
+            android:textColor="#000000"/>
+    />
+    <Button
+            android:text="Submit"
+            android:id="@+id/search_submit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+    />
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        <Button
+                android:text="Get Info"
+                android:id="@+id/doc_submit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:visibility="gone"
+        />
+        <Button android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="New Search"
+            android:id="@+id/home"
+            android:textColor="#000000"
+            android:visibility="gone"
+    />
+    </LinearLayout>
+
+</LinearLayout>
